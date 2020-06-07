@@ -1,8 +1,8 @@
 import socket
 import struct
 
-MCAST_GRP = '224.1.1.1'
-MCAST_PORT = 5007
+MCAST_GRP = '239.195.12.11'
+MCAST_PORT = 48011
 IS_ALL_GROUPS = True
 
 if __name__ == "__main__":
