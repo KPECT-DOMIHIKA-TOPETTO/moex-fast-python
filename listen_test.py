@@ -1,9 +1,9 @@
 import socket
 import struct
 
-MCAST_GRP = '239.195.12.11'
-MCAST_PORT = 48011
-IS_ALL_GROUPS = True
+MCAST_GRP = '239.195.140.6'
+MCAST_PORT = 49006
+IS_ALL_GROUPS = False
 
 if __name__ == "__main__":
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
